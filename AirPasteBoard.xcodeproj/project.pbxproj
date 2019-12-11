@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB4A503239A9D67003E8673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4A502239A9D67003E8673 /* AppDelegate.swift */; };
+		DAB4A505239A9D67003E8673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4A504239A9D67003E8673 /* ViewController.swift */; };
+		DAB4A507239A9D69003E8673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB4A506239A9D69003E8673 /* Assets.xcassets */; };
+		DAB4A50A239A9D69003E8673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB4A508239A9D69003E8673 /* Main.storyboard */; };
+		DAB4A514239AAEB9003E8673 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DAB4A513239AAEB9003E8673 /* KeychainSwift */; };
+		DAB4A516239AB884003E8673 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4A515239AB883003E8673 /* Util.swift */; };
+		DAB4A518239ABBD6003E8673 /* GithubRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4A517239ABBD6003E8673 /* GithubRequestHelper.swift */; };
+		DAB4A51D239AD970003E8673 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DAB4A51C239AD970003E8673 /* Alamofire */; };
+		DAD3321C239B62A500C1EC10 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD3321B239B62A500C1EC10 /* startViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA6F9DC8239B18A600FF59B8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAB4A4FF239A9D67003E8673 /* AirPasteBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPasteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB4A502239A9D67003E8673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB4A504239A9D67003E8673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB4A506239A9D69003E8673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB4A509239A9D69003E8673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB4A50B239A9D69003E8673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB4A50C239A9D69003E8673 /* AirPasteBoard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirPasteBoard.entitlements; sourceTree = "<group>"; };
+		DAB4A515239AB883003E8673 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		DAB4A517239ABBD6003E8673 /* GithubRequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRequestHelper.swift; sourceTree = "<group>"; };
+		DAD3321B239B62A500C1EC10 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB4A4FC239A9D67003E8673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB4A514239AAEB9003E8673 /* KeychainSwift in Frameworks */,
+				DAB4A51D239AD970003E8673 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6F9DCE239B57E000FF59B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAB4A4F6239A9D67003E8673 = {
+			isa = PBXGroup;
+			children = (
+				DAB4A501239A9D67003E8673 /* AirPasteBoard */,
+				DAB4A500239A9D67003E8673 /* Products */,
+				DA6F9DCE239B57E000FF59B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB4A500239A9D67003E8673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4A4FF239A9D67003E8673 /* AirPasteBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB4A501239A9D67003E8673 /* AirPasteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DAB4A502239A9D67003E8673 /* AppDelegate.swift */,
+				DAB4A515239AB883003E8673 /* Util.swift */,
+				DAB4A517239ABBD6003E8673 /* GithubRequestHelper.swift */,
+				DAB4A504239A9D67003E8673 /* ViewController.swift */,
+				DAD3321B239B62A500C1EC10 /* startViewController.swift */,
+				DAB4A506239A9D69003E8673 /* Assets.xcassets */,
+				DAB4A508239A9D69003E8673 /* Main.storyboard */,
+				DAB4A50B239A9D69003E8673 /* Info.plist */,
+				DAB4A50C239A9D69003E8673 /* AirPasteBoard.entitlements */,
+			);
+			path = AirPasteBoard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB4A4FE239A9D67003E8673 /* AirPasteBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB4A50F239A9D69003E8673 /* Build configuration list for PBXNativeTarget "AirPasteBoard" */;
+			buildPhases = (
+				DAB4A4FB239A9D67003E8673 /* Sources */,
+				DAB4A4FC239A9D67003E8673 /* Frameworks */,
+				DAB4A4FD239A9D67003E8673 /* Resources */,
+				DA6F9DC8239B18A600FF59B8 /* Embed Frameworks */,
+				DAD33220239B678300C1EC10 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPasteBoard;
+			packageProductDependencies = (
+				DAB4A513239AAEB9003E8673 /* KeychainSwift */,
+				DAB4A51C239AD970003E8673 /* Alamofire */,
+			);
+			productName = AirPasteBoard;
+			productReference = DAB4A4FF239A9D67003E8673 /* AirPasteBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB4A4F7239A9D67003E8673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Shunzhe Ma";
+				TargetAttributes = {
+					DAB4A4FE239A9D67003E8673 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DAB4A4FA239A9D67003E8673 /* Build configuration list for PBXProject "AirPasteBoard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB4A4F6239A9D67003E8673;
+			packageReferences = (
+				DAB4A512239AAEB8003E8673 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				DAB4A51B239AD970003E8673 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = DAB4A500239A9D67003E8673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB4A4FE239A9D67003E8673 /* AirPasteBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB4A4FD239A9D67003E8673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB4A507239A9D69003E8673 /* Assets.xcassets in Resources */,
+				DAB4A50A239A9D69003E8673 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DAD33220239B678300C1EC10 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "${PROJECT_DIR}/Carthage/Build/Mac/LaunchAtLogin.framework/Resources/copy-helper.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB4A4FB239A9D67003E8673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB4A505239A9D67003E8673 /* ViewController.swift in Sources */,
+				DAD3321C239B62A500C1EC10 /* startViewController.swift in Sources */,
+				DAB4A516239AB884003E8673 /* Util.swift in Sources */,
+				DAB4A518239ABBD6003E8673 /* GithubRequestHelper.swift in Sources */,
+				DAB4A503239A9D67003E8673 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAB4A508239A9D69003E8673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB4A509239A9D69003E8673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB4A50D239A9D69003E8673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB4A50E239A9D69003E8673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DAB4A510239A9D69003E8673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AirPasteBoard/AirPasteBoard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 459;
+				DEVELOPMENT_TEAM = 9LFMJA3SC2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AirPasteBoard",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = AirPasteBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shunzhema.airpasteboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAB4A511239A9D69003E8673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AirPasteBoard/AirPasteBoard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 459;
+				DEVELOPMENT_TEAM = 9LFMJA3SC2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AirPasteBoard",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = AirPasteBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shunzhema.airpasteboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB4A4FA239A9D67003E8673 /* Build configuration list for PBXProject "AirPasteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB4A50D239A9D69003E8673 /* Debug */,
+				DAB4A50E239A9D69003E8673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB4A50F239A9D69003E8673 /* Build configuration list for PBXNativeTarget "AirPasteBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB4A510239A9D69003E8673 /* Debug */,
+				DAB4A511239A9D69003E8673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAB4A512239AAEB8003E8673 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 18.0.0;
+			};
+		};
+		DAB4A51B239AD970003E8673 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAB4A513239AAEB9003E8673 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB4A512239AAEB8003E8673 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		DAB4A51C239AD970003E8673 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAB4A51B239AD970003E8673 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DAB4A4F7239A9D67003E8673 /* Project object */;
+}
